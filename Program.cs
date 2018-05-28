@@ -17,8 +17,8 @@ namespace log_in_module
             // Log4net lg4net = new Log4net();
             // lg4net.Login();
 
-            Nlog nlg = new Nlog();
-            nlg.Login();
+            // Nlog nlg = new Nlog();
+            // nlg.Login();
 
             // Serilog srlg = new Serilog();
             // srlg.Login();
@@ -41,24 +41,14 @@ namespace log_in_module
     }
     class Nlog
     {
-        private static NLog.Logger log = NLog.LogManager.GetCurrentClassLogger();
+        private static NLog.Logger log = NLog.LogManager.GetLogger("nlog.config");
         public void Login()
         {
-            // log.Info("This is an info message");
-            // log.Debug("This is a debug message");
-            // log.Warn("This is a warn message");
-            // log.Error("This is an error message");
-            // log.Fatal("This is a fatal message");
-
-            var config = new NLog.Config.LoggingConfiguration();
-
-            var logfile = new NLog.Targets.FileTarget() { FileName = "file.txt", Name = "logfile" };
-            var logconsole = new NLog.Targets.ConsoleTarget() { Name = "logconsole" };
-
-            config.LoggingRules.Add(new NLog.Config.LoggingRule("*", LogLevel.Info, logconsole));
-            config.LoggingRules.Add(new NLog.Config.LoggingRule("*", LogLevel.Debug, logfile));
-
-            NLog.LogManager.Configuration = config;
+            log.Info("This is an info message");
+            log.Debug("This is a debug message");
+            log.Warn("This is a warn message");
+            log.Error("This is an error message");
+            log.Fatal("This is a fatal message");
         }
     }
     class Serilog
