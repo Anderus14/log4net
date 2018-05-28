@@ -9,3 +9,14 @@ C:\Users\Laptop\Desktop\log in module\bin\Debug\netcoreapp2.0\log in module.pdb
 C:\Users\Laptop\Desktop\log in module\obj\Debug\netcoreapp2.0\log in module.csprojAssemblyReference.cache
 C:\Users\Laptop\Desktop\log in module\obj\Debug\netcoreapp2.0\log in module.dll
 C:\Users\Laptop\Desktop\log in module\obj\Debug\netcoreapp2.0\log in module.pdb
+C:\Users\HP\Desktop\log4net\bin\Debug\netcoreapp2.0\log in module.deps.json
+C:\Users\HP\Desktop\log4net\bin\Debug\netcoreapp2.0\log in module.runtimeconfig.json
+C:\Users\HP\Desktop\log4net\bin\Debug\netcoreapp2.0\log in module.runtimeconfig.dev.json
+C:\Users\HP\Desktop\log4net\bin\Debug\netcoreapp2.0\log in module.dll
+C:\Users\HP\Desktop\log4net\bin\Debug\netcoreapp2.0\log in module.pdb
+C:\Users\HP\Desktop\log4net\obj\Debug\netcoreapp2.0\log in module.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\log4net\obj\Debug\netcoreapp2.0\log in module.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\log4net\obj\Debug\netcoreapp2.0\log in module.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\log4net\obj\Debug\netcoreapp2.0\log in module.AssemblyInfo.cs
+C:\Users\HP\Desktop\log4net\obj\Debug\netcoreapp2.0\log in module.dll
+C:\Users\HP\Desktop\log4net\obj\Debug\netcoreapp2.0\log in module.pdb

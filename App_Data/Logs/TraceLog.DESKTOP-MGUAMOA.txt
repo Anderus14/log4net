@@ -1,4 +1,0 @@
-2018-05-24 10:55:18,098 DEBUG log_in_module.Program - This is a debug message
-2018-05-24 10:55:18,111 WARN log_in_module.Program - This is a warn message
-2018-05-24 10:55:18,112 ERROR log_in_module.Program - This is a error message
-2018-05-24 10:55:18,113 FATAL log_in_module.Program - This is a fatal message
