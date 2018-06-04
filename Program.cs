@@ -20,8 +20,8 @@ namespace log_in_module
             // Nlog nlg = new Nlog();
             // nlg.Login();
 
-            // Serilog srlg = new Serilog();
-            // srlg.Login();
+            Serilog srlg = new Serilog();
+            srlg.Login();
         }          
     }
     class Log4net
@@ -58,7 +58,7 @@ namespace log_in_module
             // Create Logger
             var log = new LoggerConfiguration()
                     .WriteTo.Console()
-                    .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
+                    .WriteTo.File("logs/log.txt", rollOnFileSizeLimit: true, fileSizeLimitBytes: 10_000_000, retainedFileCountLimit: 3)
                     .CreateLogger();
             // Output logs
             log.Warning("This is a warning message");
