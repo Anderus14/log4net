@@ -14,8 +14,8 @@ namespace log_in_module
     {
        static void Main(string[] args)
         {
-            // Log4net lg4net = new Log4net();
-            // lg4net.Login();
+            Log4net lg4net = new Log4net();
+            lg4net.Login();
 
             // Nlog nlg = new Nlog();
             // nlg.Login();

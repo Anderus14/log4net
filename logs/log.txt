@@ -1,0 +1,12 @@
+2018-06-05 07:09:44.317 +02:00 [WRN] This is a warning message
+2018-06-05 07:09:44.361 +02:00 [INF] This is an info message
+2018-06-05 07:09:44.361 +02:00 [ERR] This is an error message
+2018-06-05 07:09:44.361 +02:00 [FTL] This is a fatal message
+2018-06-05 07:18:53.464 +02:00 [WRN] This is a warning message
+2018-06-05 07:18:53.500 +02:00 [INF] This is an info message
+2018-06-05 07:18:53.500 +02:00 [ERR] This is an error message
+2018-06-05 07:18:53.500 +02:00 [FTL] This is a fatal message
+2018-06-05 07:20:52.565 +02:00 [WRN] This is a warning message
+2018-06-05 07:20:52.599 +02:00 [INF] This is an info message
+2018-06-05 07:20:52.599 +02:00 [ERR] This is an error message
+2018-06-05 07:20:52.599 +02:00 [FTL] This is a fatal message
